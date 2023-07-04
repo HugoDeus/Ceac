@@ -1,0 +1,30 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    position: sticky;
+}
+.gradient{
+    background: rgb(208,122,247);
+    background: linear-gradient(90deg, rgba(208,122,247,1) 0%, rgba(41,111,124,1) 49%, rgba(0,212,255,1) 100%);
+}
+.page-header{
+    font-size: 1.25rem;
+    color: white;
+}
+.spacer {
+    aspect-ratio: 1260/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('../imagens/wave1.svg');
+}

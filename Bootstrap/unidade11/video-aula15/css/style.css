@@ -1,0 +1,65 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    position: sticky;
+}
+.gradient{
+    background: rgb(208,122,247);
+    background: linear-gradient(90deg, rgba(208,122,247,1) 0%, rgba(41,111,124,1) 49%, rgba(0,212,255,1) 100%);
+}
+.page-header{
+    font-size: 1.25rem;
+    color: white;
+}
+.spacer {
+    aspect-ratio: 1260/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('../imagens/wave1.svg');
+}
+.layer2 {
+    background-image: url('../imagens/wave2.svg');
+}
+.feature{
+    color: white;
+
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li{
+    padding-left: 2rem;
+    background-image: url(../imagens/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.icone{
+    color: #fff;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.gallery{
+    background-color: whitesmoke;
+}
+.gallery img{
+    border-radius: 8%;
+}

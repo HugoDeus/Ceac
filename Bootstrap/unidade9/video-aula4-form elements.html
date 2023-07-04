@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+
+        <h1>Form Components</h1>
+
+        <div class="container">
+
+            <form action="" role="form">
+                <div class="form-group">
+                    <label for="my-input">This is a label</label>
+                    <input id="my-input" class="form-control" type="text" name="">
+                </div>
+                <div class="form-group">
+                    <label for="my-input2">This is a label</label>
+                    <input id="my-input2" class="form-control" type="text" name="">
+                    <small class="form-text text-muted">This is a help section</small>
+                </div>
+
+            </form>
+
+            <hr>
+
+            <form action="" role="form" class="d-flex m-3">
+                <div class="form-group m-3">
+                    <label for="my-input3" class="visually-hidden-focusable">This is a label</label>
+                    <input id="my-input3" class="form-control" type="text" name="" placeholder="Enter email">
+                </div>
+                <div class="form-group m-3">
+                    <label for="my-input4" class="visually-hidden-focusable">This is a label</label>
+                    <input id="my-input4" class="form-control" type="password" name="" placeholder="Password">
+                </div>
+
+                <button type="submit" class="btn btn-secondary m-3">Sign Up</button>
+
+                <div class="btn-group-toggle m-2" data-toggle="buttons">
+                    <label class="btn">
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+                
+            </form>
+
+            <hr>
+
+            <!--codigo do site de bootstrap, os codigo para checkbos da ceac nao estao a funcionar, so em bootstrap4-->
+            
+            <form action="" role="form" class="d-flex m-3">
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+                  </div>
+                
+            </form>
+
+        </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
